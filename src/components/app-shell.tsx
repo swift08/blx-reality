@@ -5,16 +5,16 @@ import { AppSidebar } from "./app-sidebar";
 import { AppTopbar } from "./app-topbar";
 
 const nav = [
-  { to: "/", label: "Dashboard", icon: LayoutDashboard },
-  { to: "/leads", label: "Leads", icon: Users },
-  { to: "/followups", label: "Follow-ups", icon: PhoneCall },
-  { to: "/sitevisits", label: "Site Visits", icon: CalendarCheck },
-  { to: "/projects", label: "Projects", icon: Building2 },
-  { to: "/developers", label: "Developers", icon: Briefcase },
-  { to: "/inventory", label: "Inventory", icon: Boxes },
-  { to: "/bookings", label: "Bookings", icon: FileText },
-  { to: "/analytics", label: "Analytics", icon: BarChart3 },
-  { to: "/settings", label: "Settings", icon: Settings },
+  { to: "/", label: "Dashboard" },
+  { to: "/leads", label: "Leads" },
+  { to: "/followups", label: "Follow-ups" },
+  { to: "/sitevisits", label: "Site Visits" },
+  { to: "/projects", label: "Projects" },
+  { to: "/developers", label: "Developers" },
+  { to: "/inventory", label: "Inventory" },
+  { to: "/bookings", label: "Bookings" },
+  { to: "/analytics", label: "Analytics" },
+  { to: "/settings", label: "Settings" },
 ] as const;
 
 export function AppShell({
